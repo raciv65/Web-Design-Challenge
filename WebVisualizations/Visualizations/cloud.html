@@ -1,11 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Page Cloud</h1>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Liliana Vicario Subdíaz">
+    <title>WeatherPy: Latitud vs Cloudiness</title>
+
+<!--Bring our boostrap stylesheet-->
+
+   <!--  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">  --> 
+    <link rel="stylesheet" href="../style.css">
+
+  </head>
+  
+  <body>
+    <!--Navegator bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div>
+        <img src="../Assets/iconCloud.png" width="50" height="50" class="d-inline-block align-top" alt="weather">
+      </div> 
+      <div class="col-lg-8">
+        <a href="../index.html"><h6 class="display-1">WeatherPy</h6></a>
+      </div>
+       
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <div class="col-lg-4 col-sm-4">
+        <ul class="navbar-nav mr-auto">
+
+          <!--Config Dropdown menu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="../Visualizations/temperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="../Visualizations/Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="../Visualizations/Cloud.html">Cloudiness</a>
+              <a class="dropdown-item" href="../Visualizations/wind.html">Wind Speed</a>
+            </div>
+          </li>
+          <!--All the rest of pages-->
+         <li class="nav-item">
+            <a class="nav-link" href="Comparison.html">Comparison</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+
+
+
+
+<!--Conteiners-->
+<div class="container">
+  <div class="row">
+
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <img src="../Assets/LatvsCloudiness.png" width="500" height="500" class="d-inline-block align-top" alt="Plot" class="center_imagen">
+        </div>
+      </div> 
+    <div class="col">      
+  
+        <h1 class="display-4">Latitude vs Cloudiness</h1>
+        
+        <hr class="my-4">
+        <p class="text-justify">
+           
+                There is not a relation between Latitud and Cloudiness.
+           
+            
+        </p>
+
+    
+  
+      
+
+      
+    </div>
+
+
+  </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+  
 </html>
